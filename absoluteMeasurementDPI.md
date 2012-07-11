@@ -71,13 +71,32 @@ Both approaches above do not specify dimensions that map reliably to measurable 
 
 ## We Need To Fix This Now
 
-The development effort to support multiple display densities in building user interfaces using existing approaches is neither sustainable nor fun. We are starting to conceive of and build deeply pervasive and ubiquitous computing applications that define interactions across multiple displays.
+The current approach to building user interfaces to support multiple display densities is neither sustainable nor fun. We are starting to conceive of and build deeply pervasive and ubiquitous computing applications that define interactions across multiple displays. To efficiently build such user interfaces, we need software and hardware that take into account display density.
 
-The abstractions that we use to build these user interfaces will have to stop taking into account display density.
+## Yes, but&hellip;
 
+Expedient Excuses:
+
+* Legacy support. Too much code has been written using pixel dimensions.
+
+    Moving to using points or dp is a step towards migrating away from pixels. What needs to be done next is to lock down the mapping of these units into real-world dimensions.
+
+* Too many different kinds of displays.
+
+    Start implementing resolution independing graphics with displays that are 100 PPI or higher. (Prediction: in 5 years all new mobile handsets will have > 160 PPI screens.)   
+
+* Font-hinting gets thrown under a bus.
+
+    Font-hinting becomes less necessary at 200 PPI and higher. That said, resolution  independent implementation of fonts at 100 PPI will still be a challenge but can be considered in the long term (say 10 years from now going forward) a short-term problem. Hardware vendors could relish at the thought of selling high density displays to replace existing ~100 PPI displays today.
+
+* Getting vendor consensus on specifications is too hard.
+
+    You have to start somewhere, sometime. Having the hardware and software development community to understand that we can fix this problem *now* is a good place to start.
+        
+    
 ## It's Not Too Late
 
-The opportunity with high PPI displays is to be able deprecate the practice of using pixels to describe dimension. Resolution independent graphics is a solved problem and just requires the willingness from the computer industry to ensure that a 12 point font will be rendered the same size everywhere, regardless of screen size and density. Solve this and then we can really have the fancy things we're seeing in the movies.
+Resolution independent graphics is a solved problem. My appeal is to software and hardware developers to ensure that a 12 point font will be rendered the same size everywhere, regardless of screen size and density. With high PPI displays we can deprecate the practice of using pixels to describe dimension. Solve this and then we can really have the fancy things we're seeing people imagine in the movies.
 
 ## "All of this has happened before, and it will all happen again."
 
@@ -87,4 +106,5 @@ I'm writing this in the middle of July 2012. Where will this argument be in anot
 
 [Pixels Per Inch (PPI) Calculator](http://members.ping.de/~sven/dpi.html)
 
+## Acknowlegements
 
