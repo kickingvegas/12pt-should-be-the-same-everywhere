@@ -8,7 +8,7 @@ Computer displays have reached high-enough pixel densities where the graphics an
 
 If you want to write the sentence "The quick brown fox jumped over the lazy dog." using 12 point Time Roman in a box that is specified to be 5 inches across, you will likely observe this when implementing this in [HTML](testPage.html):
 
-![Different renderings of a 5" in HTML](different_sizes_measured.png)
+![Different renderings of a 5" in HTML](https://github.com/kickingvegas/12pt-should-be-the-same-everywhere/raw/master/different_sizes_measured.png)
 
 The real-world definitions of inches and points (1 point = 1/72<sup>nd</sup> inch) get lost in the translation when the final result shows up on a computer display. The following table shows what is actually measured:
 
