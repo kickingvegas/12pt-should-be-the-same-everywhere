@@ -6,7 +6,7 @@ Computer displays have reached high-enough pixel densities where the graphics an
 
 ## The Problem in a Picture
 
-If you want to write the sentence "The quick brown fox jumped over the lazy dog." using 12 point Time Roman in a box that is specified to be 5 inches across, you will likely observe this when implementing this in [HTML](testPage.html):
+If you want to display the sentence "The quick brown fox jumped over the lazy dog." using 12 point Time Roman in a box that is specified to be 5 inches across, you will likely observe this when implementing this in [HTML](testPage.html):
 
 ![Different renderings of a 5" in HTML](https://github.com/kickingvegas/12pt-should-be-the-same-everywhere/raw/master/different_sizes_measured.png)
 
