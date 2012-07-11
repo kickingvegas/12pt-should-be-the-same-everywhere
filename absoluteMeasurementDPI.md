@@ -16,12 +16,31 @@ The real-world definitions of inches and points (1 point = 1/72<sup>nd</sup> inc
 <tr>
   <th>Model</th>
   <th>Resolution</th>
+  <th>Diagonal Size (inches)</th>
   <th><a href='https://en.wikipedia.org/wiki/Pixels_per_inch'>PPI</a></th>
   <th>Actual direct-on-glass 5" measurement (inches)</th>
 </tr>
-<tr><td>Samsung SyncMaster 910T</td><td>1280x1024</td><td>86.27</td><td>5.5625</td></tr>
-<tr><td>Apple iMac 27"</td><td>2560x1440</td><td>108.79</td><td>4.4063</td></tr>
-<tr><td>Apple iPad 2</td><td>1024x768</td><td>131.96</td><td>4.8438</td></tr>
+<tr>
+  <td>Samsung SyncMaster 910T</td>
+  <td>1280x1024</td>
+  <td>19</td>
+  <td>86.27</td>
+  <td>5.5625</td>
+</tr>
+<tr>
+  <td>Apple iMac 27"</td>
+  <td>2560x1440</td>
+  <td>27</td>
+  <td>108.79</td>
+  <td>4.4063</td>
+</tr>
+<tr>
+  <td>Apple iPad 2</td>
+  <td>1024x768</td>
+  <td>9.7</td>
+  <td>131.96</td>
+  <td>4.8438</td>
+</tr>
 </table>
 
 ## How We Got Here
