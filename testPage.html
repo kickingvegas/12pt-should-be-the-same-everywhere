@@ -1,0 +1,43 @@
+<html>
+  <head>
+<title>A 12pt Font Should Be The Same Size Everywhere</title>
+<meta name='viewport' content='user-scalable=no, width=device-width, height=device-height'>
+<style>
+
+/* initial-scale = 1.38 for iPad */
+/* initial-scale = 1.687 for iPhone 4/4S */
+/* initial-scale = ? for iPhone */
+body {
+// iMac 27
+//zoom: 113.32%;
+// iPhone 4S
+//zoom: 172%;
+// iPad 2
+//zoom: 137.46%;
+}
+
+h1 { font-size: 14pt; }
+
+p {font-size: 12pt;}
+
+.fred {
+     border-style: solid;
+     border-width: thin;
+     width: 5in;
+     height: 2.0in;
+     padding: 0 0 0 0;
+     margin: 0 0 0 0;
+     overflow: auto;
+}
+</style>
+
+</head>
+<body>
+<h1>Hello</h1>
+
+<div class='fred'>
+<p>The quick brown fox jumped over the lazy dog.</p>
+</div>
+
+</body>
+</html>
