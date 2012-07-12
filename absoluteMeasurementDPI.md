@@ -45,7 +45,7 @@ The real-world definitions of inches and points (1 point = 1/72<sup>nd</sup> inc
 
 ## How We Got Here
 
-Computer hardware and software people could never figure out a reliable way to communicate the diagonal display size. It was just easier for the hardware and software to communicate the screen resolution and just punt on factoring in how packed the pixels were when rendering computer graphics. There was never committment by the computer industry to deliver display output that matched real-world measurements.
+Computer hardware and software people could never figure out a reliable way to communicate the diagonal display size. It was just easier for the hardware and software to communicate the screen resolution and just punt on factoring in how packed the pixels were when rendering computer graphics. There was never commitment by the computer industry to deliver display output that matched real-world measurements.
 
 ## "Told You So" - An Old Rant About Resolution Independent Computer Graphics 
 
@@ -83,7 +83,7 @@ Expedient Excuses:
 
 * Too many different kinds of displays.
 
-    Start implementing resolution independing graphics with displays that are 100 PPI or higher. (Prediction: in 5 years all new mobile handsets will have > 160 PPI screens.)   
+    Start implementing resolution independent graphics with displays that are 100 PPI or higher. (Prediction: in 5 years all new mobile handsets will have > 160 PPI screens.)   
 
 * Font-hinting gets thrown under a bus.
 
@@ -106,5 +106,5 @@ I'm writing this in the middle of July 2012. Where will this argument be in anot
 
 [Pixels Per Inch (PPI) Calculator](http://members.ping.de/~sven/dpi.html)
 
-## Acknowlegements
+## Acknowledgments
 
