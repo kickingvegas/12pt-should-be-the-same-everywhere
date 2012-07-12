@@ -108,3 +108,11 @@ I'm writing this in the middle of July 2012. Where will this argument be in anot
 
 ## Acknowledgments
 
+Thanks as follows:
+
+* Erica Sadun [@ericasadun](https://twitter.com/ericasadun) for encouraging me to write this.
+
+* Matt Conway [@ConwayMatt](https://twitter.com/ConwayMatt) for bouncing his informed thoughts on this matter.
+
+
+
