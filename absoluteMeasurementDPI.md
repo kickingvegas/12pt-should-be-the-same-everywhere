@@ -114,5 +114,11 @@ Thanks as follows:
 
 * Matt Conway [@ConwayMatt](https://twitter.com/ConwayMatt) for bouncing his informed thoughts on this matter.
 
+* Randy Pausch for his long-ago Computer Graphics lecture on scan conversion and his offhand remark that "PostScript got this right" when discussing resolution independence.
 
 
+## Discuss
+
+Apparently this post has struck a nerve on Hacker News. Here's a link to add to the discussion.
+
+* [HN Discussion](http://news.ycombinator.com/item?id=4236429)
