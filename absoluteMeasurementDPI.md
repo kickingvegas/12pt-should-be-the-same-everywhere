@@ -119,6 +119,9 @@ Thanks as follows:
 
 ## Discuss
 
-Apparently this post has struck a nerve on Hacker News. Here's a link to add to the discussion.
+Apparently this post has struck a nerve on both Hacker News and Reddit. Here are their links to add to the discussion:
 
 * [HN Discussion](http://news.ycombinator.com/item?id=4236429)
+
+* [Reddit Discussion](http://www.reddit.com/r/programming/comments/wi5r6/12pt_should_be_the_same_everywhere/)
+
